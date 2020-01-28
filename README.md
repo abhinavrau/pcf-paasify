@@ -135,6 +135,7 @@ The following table lists all tiles that can be automatically installed, along w
 | Healthwatch | 1.7.0 | `healthwatch` |
 | Credhub Service Broker | 1.3.2 | `credhub` |
 | Pivotal Anti-Virus | 2.6.1 | `antivirus` |
+| Pivotal Single SignOn | 1.11.0 | `sso` |
 
 The latest stemcell supported by each tile will automatically be uploaded to OpsManager.
 
