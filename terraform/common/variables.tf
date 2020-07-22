@@ -81,17 +81,17 @@ variable "sys_domain" {
 
 variable "opsman_version" {
   type    = "string"
-  default = "2.8.0"
+  default = "2.8.2"
 }
 
 variable "opsman_build" {
   type    = "string"
-  default = "187"
+  default = "203"
 }
 
 variable "pas_version" {
   type = "string"
-  default = "2.8.0"
+  default = "2.8.2"
 }
 
 variable "tiles" {
@@ -103,12 +103,12 @@ variable "tile_versions" {
   type = "map"
 
   default = {
-    "mysql" = "2.7.2"
+    "mysql" = "2.7.5"
     "redis" = "2.2.1"
-    "rabbit" = "1.17.1"
+    "rabbit" = "1.18.3"
     "scs" = "3.0.5"
     "metrics" = "1.6.1"
-    "healthwatch" = "1.7.0"
+    "healthwatch" = "1.8.0"
     "pcc" = "1.8.0"
     "credhub" = "1.3.2"
     "scdf" = "1.6.1"
